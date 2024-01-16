@@ -1,7 +1,7 @@
 """Helper functions for webOS Smart TV."""
 from __future__ import annotations
 
-from aiowebostv import WebOsClient
+from aiolgtv import WebOsClient
 
 from homeassistant.core import HomeAssistant, callback
 from homeassistant.helpers import device_registry as dr, entity_registry as er

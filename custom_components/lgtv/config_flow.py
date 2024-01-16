@@ -6,7 +6,7 @@ import logging
 from typing import Any
 from urllib.parse import urlparse
 
-from aiowebostv import WebOsTvPairError
+from aiolgtv import WebOsTvPairError
 import voluptuous as vol
 
 from homeassistant.components import ssdp

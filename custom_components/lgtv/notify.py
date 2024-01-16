@@ -4,7 +4,7 @@ from __future__ import annotations
 import logging
 from typing import Any
 
-from aiowebostv import WebOsClient, WebOsTvPairError
+from aiolgtv import WebOsClient, WebOsTvPairError
 
 from homeassistant.components.notify import ATTR_DATA, BaseNotificationService
 from homeassistant.const import ATTR_ICON

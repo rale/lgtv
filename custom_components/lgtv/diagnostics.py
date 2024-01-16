@@ -3,7 +3,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from aiowebostv import WebOsClient
+from aiolgtv import WebOsClient
 
 from homeassistant.components.diagnostics import async_redact_data
 from homeassistant.config_entries import ConfigEntry

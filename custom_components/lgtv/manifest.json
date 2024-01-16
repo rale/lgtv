@@ -6,8 +6,8 @@
   "config_flow": true,
   "documentation": "https://github.com/rale/lgtv",
   "iot_class": "local_push",
-  "loggers": ["aiowebostv"],
-  "requirements": ["aiowebostv @ git+https://github.com/rale/aiowebostv.git"],
+  "loggers": ["aiolgtv"],
+  "requirements": ["aiolgtv @ git+https://github.com/rale/aiolgtv.git"],
   "ssdp": [
     {
       "st": "urn:lge-com:service:webos-second-screen:1"

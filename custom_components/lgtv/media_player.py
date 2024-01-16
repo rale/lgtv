@@ -11,7 +11,7 @@ import logging
 import ssl
 from typing import Any, Concatenate, ParamSpec, TypeVar, cast
 
-from aiowebostv import WebOsClient, WebOsTvPairError
+from aiolgtv import WebOsClient, WebOsTvPairError
 
 from homeassistant import util
 from homeassistant.components.media_player import (

@@ -4,7 +4,7 @@ from __future__ import annotations
 from contextlib import suppress
 import logging
 
-from aiowebostv import WebOsClient, WebOsTvPairError
+from aiolgtv import WebOsClient, WebOsTvPairError
 import voluptuous as vol
 
 from homeassistant.components import notify as hass_notify
