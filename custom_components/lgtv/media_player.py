@@ -250,6 +250,8 @@ class LgWebOSMediaPlayerEntity(RestoreEntity, MediaPlayerEntity):
                     self._attr_state = MediaPlayerState.PLAYING
                 elif entry.get("playState") == "paused":
                     self._attr_state = MediaPlayerState.PAUSED
+                elif entry.get("playState") == "unloaded":
+                    self._attr_state = MediaPlayerState.IDLE
 
         if self._client.system_info is not None or self.state != MediaPlayerState.OFF:
             maj_v = self._client.software_info.get("major_ver")
